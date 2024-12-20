@@ -1,5 +1,4 @@
 # Email-processor
-# Email Processor
 
 ## Overview
 The Email Processor is a Python-based application that retrieves unread emails from an email account using IMAP, processes their content, and stores relevant information into a MongoDB database. This tool is ideal for automating the extraction and storage of email data for further analysis or record-keeping.
@@ -58,9 +57,9 @@ Logs are stored in `email_processor.log` and displayed in the console for real-t
 
 
 ## File Structure
-.
+```
 ├── email_processor.py        # Main script for email processing
 ├── config.ini                # Configuration file
 ├── email_processor.log       # Log file for tracking execution
 └── README.md                 # Project documentation (this file)
-
+```
